@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Simple SEO & Meta Manager - toolkitAC
 Plugin URI: https://anderson526.github.io/portfolio-profesional/
-Description: SEO On-Page esencial: título SEO, meta descripción y etiquetas Open Graph directamente en el editor de bloques, sin menús sobrecargados. Parte de la suite AnderC Essential.
+Description: SEO On-Page esencial: título SEO, meta descripción y etiquetas Open Graph directamente en el editor de bloques, sin menús sobrecargados. Parte de la suite AC Essential.
 Version: 1.0.0
 Author: Anderson Chila
 Author URI: https://anderson526.github.io/portfolio-profesional/

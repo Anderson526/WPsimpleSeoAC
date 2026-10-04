@@ -46,7 +46,7 @@ class ASEO_Frontend_Output {
 			$desc = wp_trim_words( wp_strip_all_tags( get_the_excerpt( $post ) ), 30, '…' );
 		}
 
-		echo "\n<!-- AnderC Simple SEO -->\n";
+		echo "\n<!-- AC Simple SEO -->\n";
 
 		if ( '' !== (string) $desc ) {
 			printf( '<meta name="description" content="%s" />' . "\n", esc_attr( $desc ) );
@@ -75,6 +75,6 @@ class ASEO_Frontend_Output {
 			printf( '<meta name="twitter:description" content="%s" />' . "\n", esc_attr( $desc ) );
 		}
 
-		echo "<!-- /AnderC Simple SEO -->\n";
+		echo "<!-- /AC Simple SEO -->\n";
 	}
 }

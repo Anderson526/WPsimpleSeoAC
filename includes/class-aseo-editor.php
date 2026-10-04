@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Inyecta el panel "AnderC SEO" en la barra lateral del editor de bloques.
+ * Inyecta el panel "AC SEO" en la barra lateral del editor de bloques.
  */
 class ASEO_Editor {
 

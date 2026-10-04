@@ -26,6 +26,10 @@ final class ASEO_Plugin {
 		new ASEO_Meta_Fields();
 		new ASEO_Editor();
 		new ASEO_Frontend_Output();
+
+		if ( is_admin() ) {
+			new ASEO_Donations();
+		}
 	}
 
 	public function load_textdomain() {

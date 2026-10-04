@@ -1,5 +1,5 @@
 /**
- * AnderC Simple SEO: panel en la barra lateral del editor de bloques.
+ * AC Simple SEO: panel en la barra lateral del editor de bloques.
  * Sin paso de compilación: usa los paquetes globales de wp.*.
  */
 ( function ( wp ) {
@@ -81,7 +81,7 @@
 			PluginDocumentSettingPanel,
 			{
 				name: 'anderc-seo-panel',
-				title: __( 'AnderC SEO', 'anderc-simple-seo' ),
+				title: __( 'AC SEO', 'anderc-simple-seo' ),
 				className: 'anderc-seo-panel'
 			},
 			el( TextControl, {
