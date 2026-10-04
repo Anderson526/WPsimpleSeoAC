@@ -1,0 +1,32 @@
+.anderc-seo-counter {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 11px;
+	margin: -4px 0 12px;
+	color: #50575e;
+}
+
+.anderc-seo-counter__dot {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #c3c4c7;
+	flex-shrink: 0;
+}
+
+.anderc-seo-counter--ok .anderc-seo-counter__dot {
+	background: #00a32a;
+}
+
+.anderc-seo-counter--short .anderc-seo-counter__dot {
+	background: #dba617;
+}
+
+.anderc-seo-counter--over .anderc-seo-counter__dot {
+	background: #d63638;
+}
+
+.anderc-seo-counter--over {
+	color: #d63638;
+}
